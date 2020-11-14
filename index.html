@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Giphy Search Engine</title>
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
@@ -15,7 +15,13 @@
 </head>
 
 <body class="bg-repeat bg-cover bg-gradient-to-t from-orange-400 via-pink-400 to-orange-400">
-    <div class="origin-top-right absolute w-2/12 right-0 m-2 w-56 rounded-md shadow-lg bg-green-400 hover:bg-pink-400 text-white text-center">
+
+<div class="flex flex-row flex-wrap justify-center">
+	<a href="index.html">
+		<div id="page-title" class="flex flex-row flex-wrap justify-center text-white text-4xl m-4">Giphy Search API
+	</a>
+
+	<div class="flex-wrap justify-center w-2/12 right-0 m-2 w-56 rounded-md shadow-lg bg-green-400 hover:bg-pink-400 text-white text-center">
 		<ul class="dropdown text-center text-base">Menu
 			<a href="index.html">
 				<li id="home" class="hidden menu-item text-white text-center px-4 py-2 m-2 hover:bg-green-400">Home</li>
@@ -24,9 +30,10 @@
 			<li id="about" class="hidden menu-item text-white text-center px-4 py-2 m-2 hover:bg-green-400">Contact</li>
 		</ul>
 	</div>
-    </div>
-    
-    <br>
+	</div>
+  </div>
+
+	<br>
 
     <div id="search-title" class="text-white text-center text-2xl m-2">GIF Search</div>
     <div class="text-white text-center text-l m-2">Find the best GIFs with the click of a button</div>
@@ -39,16 +46,14 @@
 
 <br>
 
-<br>
-
     <div id="search-results" class="grid grid-cols-1 gap-4 sm:grid-cols-2 gap-4 md:grid-cols-3 gap-4 lg:grid-cols-4 gap-4 xl:grid-cols-5 gap-4"></div>
       <div></div>
 
     <div id="footer" class="flex flex-row w-auto justify-center m-10">
       <a href="https://giphy.com/">
-        <img border="0" alt="Powered by Giphy" src="giphylogo.png">
+        <img border="0" alt="Powered by Giphy" src="logo.png">
       </a>
     </div>
 
-
-</body>
+  </body>
+</html>

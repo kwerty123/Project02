@@ -8,7 +8,7 @@ How to use:
 Enter your search term into the search input box and click the search button.
 
 Technology used:
-.html, .css, .js
+.html, .css, .js, tailwindcss
 
 Ideas for future improvement:
 Be able to trigger search by pressing the Enter key
